@@ -8,15 +8,19 @@
   </head>
   <body>
 
-    <h1 id="heading"></h1>
+    <div class="header">
+      <h1 id="heading"></h1>
+    </div>
 
     <h3>Tasks for today:</h3>
     <input type="text" placeholder="Type here" id="taskText">
     <input type="button" value="Add!" onclick=addTask()>
     <br>
-    <ol id="list">
-      
-    </ol>
+    <div class="todo-list">
+      <ol id="list">
+        
+      </ol>
+    </div>
 
     <script>
       addDate();
